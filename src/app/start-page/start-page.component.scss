@@ -1,0 +1,61 @@
+$key-color: #4d4b4c;
+$keyItem-color: #007bff;
+$keyFont-color: white;
+
+.startPgBg{
+    background-color: $key-color;
+    width: 100vw;
+    height: 100vh;
+    .startPage{
+        text-align: center;
+        color: $keyItem-color;
+        position: relative;
+        top: 35vh;
+        font-size: 3rem;
+        font-family: cursive;
+        font-weight: bold;
+        animation-iteration-count: infinite;
+        }
+    div{
+        animation-duration: 1s;
+        animation-delay: 1s;
+    }
+    button{
+        color:$keyFont-color;
+        background-color: $keyItem-color;
+        width: 10rem;
+        height: 2.5rem;
+        margin: 0.5rem;
+        margin-top: 0;
+        font-size: 1rem;
+        border: 0;
+        border-radius: 3rem;
+        outline:none;
+        animation-duration: 2s;
+        
+        
+    }
+    .skipLogIn{
+        background-color: $keyItem-color;
+        font-size: 0.7rem;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin: auto;
+        outline: none;
+        cursor: pointer;
+        span{
+            color: $keyFont-color;
+            position: relative;
+            top: 8px;
+            // data-wow-duration:2s;
+            // data-wow-delay: 2s;
+            // data-wow-offset:10;
+            // data-wow-iteration: 5;
+        }
+    }
+    
+}
+
+
+

@@ -1,0 +1,26 @@
+$key-color: #4d4b4c;
+$keyFont-color: #6008a8;
+.logInPg {
+  background-color: $key-color;
+  width: 100vw;
+  height: 100vh;
+  .card {
+    margin: auto;
+    top: 2rem;
+    height: 33rem;
+    width: 23rem;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+    .goBack{
+        font-size: 0.9rem;
+    }
+    form{
+        margin-top: 1rem;
+    }
+    button[type="button"]{
+        margin-left: 1rem;
+    }
+    
+  }
+}
